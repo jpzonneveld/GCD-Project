@@ -12,9 +12,8 @@ Identifier name  | Description
 -----------------|------------
 Subject          | ID of the subject who performed the activity for each window sample. Its range is from 1 to 30.
 Activity         | Activity name. 
-There are 6 different activities.
 
-> The six activities that are distinguished are:
+> The activities are dived in six categories:
 > * Walking
 > * Walking Upstairs
 > * Walking Downstairs
@@ -30,4 +29,6 @@ The other 66 columns denoted the avarage number of the different measurements ta
 The column names indicate what type of measurement was taken.
 
 For simplicity and brevity the full description for all the measurements will not be included here.
-The full description of the contents of all the columns can be found in the `features_info.txt` file in the raw data file dat can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+The full description of the contents of all the columns can be found in the `features_info.txt` file in the raw data file that can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+
+Note that only the `-mean` and `-std` attributes are included in this dataset.
