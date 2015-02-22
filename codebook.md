@@ -29,14 +29,14 @@ The other 66 columns denoted the avarage number of the different measurements ta
 The column names indicate what type of measurement was taken.
 
 
-Feature name     | Columnname		| Description
------------------|-------------------------------------
-Domain           | t or f		| Time domain signal or frequency domain signal
-Instrument       | Acc or Gyro		| Measuring instrument (Accelerometer or Gyroscope)
-Acceleration     | Body or Gravity	| Acceleration signal
-Variable         | mean() or std()	| Variable (Mean or Standard Deviation)
-Jerk             | Jerk			| Jerk signal
-Magnitude        | Magn			| Magnitude of the signals calculated using the Euclidean norm
+Feature name     | Columnname identifier | Description
+-----------------|-------------------------------------------------------------------------------------
+Domain           | t or f		 | Time domain signal or frequency domain signal
+Instrument       | Acc or Gyro		 | Measuring instrument (Accelerometer or Gyroscope)
+Acceleration     | Body or Gravity	 | Acceleration signal
+Variable         | mean() or std()	 | Variable (Mean or Standard Deviation)
+Jerk             | Jerk			 | Jerk signal
+Magnitude        | Magn			 | Magnitude of the signals calculated using the Euclidean norm
 
 
 For simplicity and brevity the full description for all the features will not be included here.
