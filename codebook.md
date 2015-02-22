@@ -28,7 +28,16 @@ Variable lists and descriptions
 The other 66 columns denoted the avarage number of the different measurements taken for each combination of identifiers.
 The column names indicate what type of measurement was taken.
 
-For simplicity and brevity the full description for all the measurements will not be included here.
-The full description of the contents of all the columns can be found in the `features_info.txt` file in the raw data file that can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-Note that only the `-mean` and `-std` attributes are included in this dataset.
+Feature name     | Columnname		| Description
+-----------------|-------------------------------------
+Domain           | t or f		| Time domain signal or frequency domain signal
+Instrument       | Acc or Gyro		| Measuring instrument (Accelerometer or Gyroscope)
+Acceleration     | Body or Gravity	| Acceleration signal
+Variable         | mean() or std()	| Variable (Mean or Standard Deviation)
+Jerk             | Jerk			| Jerk signal
+Magnitude        | Magn			| Magnitude of the signals calculated using the Euclidean norm
+
+
+For simplicity and brevity the full description for all the features will not be included here.
+The full description can be found in the `features_info.txt` file included in the raw data file that can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
