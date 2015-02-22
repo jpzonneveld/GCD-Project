@@ -13,13 +13,13 @@ Identifier name  | Description
 Subject          | ID of the subject who performed the activity for each window sample. Its range is from 1 to 30.
 Activity         | Activity name. 
 
-> The activities are dived in six categories:
-> * Walking
-> * Walking Upstairs
-> * Walking Downstairs
-> * Sitting
-> * Standing
-> * Laying
+The activities are dived in six categories:
+* Walking
+* Walking Upstairs
+* Walking Downstairs
+* Sitting
+* Standing
+* Laying
 
 
 Variable lists and descriptions
@@ -31,13 +31,13 @@ The column names indicate what type of measurement was taken.
 
 Feature name     | Columnname identifier | Description
 -----------------|-----------------------|--------------------------------------------------------------
-Domain           | t or f		 | Time domain signal or frequency domain signal
-Instrument       | Acc or Gyro		 | Measuring instrument (Accelerometer or Gyroscope)
-Acceleration     | Body or Gravity	 | Acceleration signal
-Variable         | mean() or std()	 | Variable (Mean or Standard Deviation)
-Jerk             | Jerk			 | Jerk signal
-Magnitude        | Magn			 | Magnitude of the signals calculated using the Euclidean norm
-
+Domain           | _t_ or _f_		 | Time domain signal or frequency domain signal
+Instrument       | _Acc_ or _Gyro_	 | Measuring instrument (Accelerometer or Gyroscope)
+Acceleration     | _Body_ or _Gravity_	 | Acceleration signal
+Jerk             | _Jerk_		 | Jerk signal
+Magnitude        | _Mag_		 | Magnitude of the signals calculated using the Euclidean norm
+Variable         | _mean()_ or _std()_	 | Variable (Mean or Standard Deviation)
+Axis	         | _X_, _Y_ or _Z_	 | Axis of direction (X, Y or Z-direction)
 
 For simplicity and brevity the full description for all the features will not be included here.
 The full description can be found in the `features_info.txt` file included in the raw data file that can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
