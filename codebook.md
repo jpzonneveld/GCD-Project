@@ -30,7 +30,7 @@ The column names indicate what type of measurement was taken.
 
 
 Feature name     | Columnname identifier | Description
------------------|-------------------------------------------------------------------------------------
+-----------------|-----------------------|--------------------------------------------------------------
 Domain           | t or f		 | Time domain signal or frequency domain signal
 Instrument       | Acc or Gyro		 | Measuring instrument (Accelerometer or Gyroscope)
 Acceleration     | Body or Gravity	 | Acceleration signal
