@@ -44,3 +44,5 @@ Temporary Items
 *.zip
 UCI HAR Dataset/*
 clean_dataset.txt
+.RData
+.Rhistory
