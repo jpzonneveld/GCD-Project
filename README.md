@@ -26,14 +26,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Steps to reproduce this project
 -------------------------------
 
-1. Download and extract the data into a new folder in your working directory called: "UCI HAR Dataset".
-2. Install the 'reshape2' package.
-3. Run the 'run_analysis.R' script.
+1. Download and extract the data into a new folder in your working directory called: `UCI HAR Dataset`.
+2. Install the `reshape2` package.
+3. Run the `run_analysis.R` script.
 
 Working of script
 -----------------
 
-The script performs the following operations.
+The script performs the following operations:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set.
